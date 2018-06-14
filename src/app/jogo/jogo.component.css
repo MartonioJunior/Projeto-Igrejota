@@ -1,4 +1,4 @@
-	@font-face{
+@font-face{
   font-family: BalooRegular;
   src: url("../../fonts/Baloo-Regular.ttf");
 }
@@ -177,32 +177,53 @@ input[type=checkbox]{
     width: 6vw;
     height: 6vw;
     margin-left: 3vw;
-    transition: background-color 0.5s, color 0.5s, border-radius 0.5s;
+	float: left;
+    position: relative;
+    margin-bottom: 2.5vw;
+    transition: background-color 0.5s, color 0.5s, border-radius 0.5s,background 0.5s;
     -webkit-appearance: inherit;
+    margin-top: 2.5vw;
+}
+input[type=checkbox]:checked{
+	background-color: #F7AA71;
+    border: 3px solid #294d60;
+    border-radius: 10vw;
+}
+input[type=checkbox]:hover{
+    border-radius: 5vw;
+}
+.filtros p{
+	margin: 0px;
+	font-family: PridiBold;
+	font-size: 3.5vw;
+	padding-top: 2.5vw;
 }
 
 .filtros{
-	  padding: 2vw;
+	padding: 2vw;
     border-bottom: 3px solid #294d60;
     background-color: #00a6c466;
     border-radius: 2vw;
+    display: inline-block;
 }
 .filtros button{
     font-family: BalooRegular;
     font-size: 4vw;
-    margin: 0 1vw 0 0;
+    float: right;
     background-color: #df704a;
     border: 0 solid;
     border-radius: 2vw;
     transition: background-color .2s,color .2s;
     color: #ffeadd;
-    margin-left: 65vw;
 }
 .filtros button:hover{
 	background-color: #F7AA71;
 	color:#000;
 }
 
+.filtros h3{
+	margin-top: 0vw;
+}
 
 .jogos li {
 	display: inline-block;
