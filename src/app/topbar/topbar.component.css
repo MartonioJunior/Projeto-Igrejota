@@ -18,6 +18,7 @@
 
 .tab-menu-mobile li {
   border: 8px solid #294D60;
+  background-color: #294D60;
 }
 
 .tab-menu-mobile header {
@@ -37,8 +38,8 @@
 }
 
 .menu-item-mobile {
-  width: 90.7vw;
-  text-align: left;
+  width: 62vw;
+  border-radius: 2vw;
   background-color: #00A6C4;
   color: #FFEADD;
   border: none;
@@ -48,18 +49,29 @@
   margin-bottom: 0px;
   font-size: 3.5vw;
   font-family: BalooRegular;
+  transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+.sair {
+  background-color: #DF704A;
+  margin-bottom: 5vw;
+  margin-top: 5vw;
+}
+
+.menu-item-mobile:hover {
+  background-color: #FFEADD;
+  color: #000;
 }
 
 h3.menu-item-mobile {
   padding-left: 2vw;
-  margin: -1px;
-  width: 95.7vw;
+  text-align: center;
   background-color: #294D60;
 }
 
 .login-button {
     width: 17vw;
-    height: 14.6vw;
+    height: 14.72vw;
     background-color: #00a6c4;
     font-size: 4.5vw;
     border: none;
@@ -68,24 +80,29 @@ h3.menu-item-mobile {
     color: #ffeadd;
     line-height: 1em;
     position: fixed;
+    transition: background-color 0.5s ease;
     top: 0vw;
 }
 
 .back-button {
     float: left;
     width: 17vw;
-    height: 14.6vw;
+    height: 14.72vw;
     background-color: #00a6c4;
     font-size: 4.5vw;
     border: none;
     font-family: BalooRegular;
     padding: 1vw 6vw;
     color: #ffeadd;
+    transition: background-color 0.5s ease;
     line-height: 1em;
     position: fixed;
     top: 0vw;
 }
 
+.back-button:hover {
+  background-color: #294D60;
+}
 .login-button:hover {
   background-color: #294D60;
 }
@@ -98,42 +115,30 @@ br{
 .tab-menu-mobile {
   background-color: #00A6C4;
   width: 100vw;
+  position: fixed;
+  top: -1vw;
+  left: 0vw;
 }
 
 .login-icon {
   max-width: 6vw;
   max-height: 6vw;
 }
-
-/*@media screen and (min-width: 550px){
-	.tab-menu-mobile header {
-		height: 60px;
-  		justify-content: flex-start;
-	}
-
-	.tab-menu-mobile h1 {
-		width: 435px;
-		margin-left: 0px;
-		font-size: 1.8em;
-	}
-	.menu-item-mobile {
-		width: 550px;
-  		margin-left: -34px;
-	}
-	.login-icon {
- 		max-width: 20px;
- 		max-height: 20px;
-	}
-	.login-button {
-		width: 90px;
-		height: 60px;
-  		font-size: 1.4em;
-	}
-	.tab-menu-mobile {
-		width: 550px;
-	}
-	.tab-menu-mobile ul ] {
-  		justify-content: flex-start;
-	}
+.dropdown-menu{
+  background-color: #000000aa;
+  text-align: center;
+  display:block;
+  justify-content: center;
+  left: 0;
+  right: 0;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: Pridi;
+  font-size: 4vw;
+  color: #EFE0D0;
+  position: absolute;
 }
-*/
+.dropdown-menu ul{
+  margin-top: 19vh;
+  margin-bottom: 27.8vh;
+}

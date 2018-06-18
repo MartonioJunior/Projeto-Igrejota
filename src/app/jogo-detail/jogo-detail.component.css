@@ -25,9 +25,8 @@ h1{
 .jogoimg{
 	padding: 0vw;
 	margin: 0vw;
-	margin-left:10.28vw;
-	width:70vw;
 	height:35vw;
+	border: solid 3px #BF6646;
 }
 .jogodet {
 	display: inline-block;
@@ -47,7 +46,7 @@ h1{
 	color: black;
 }
 .jogo h3{
-	font-size: 6.5vw;
+	font-size: 6.5	vw;
 	font-family: Pridi;
 	color: #BF6646;
 	margin: 0px;
@@ -56,15 +55,24 @@ h1{
 .jogo p{
 	font-family: Lateef;
 	color: black;
-	font-size: 5.5vw;
+	font-size: 4.5vw;
 	margin: 0px;
 }
-.jogo-link{
+.jogo a{
 	font-family: Lateef;
 	border-left: solid 3px #BF6646;	
 	font-size: 4.5vw;
 	margin: 0;
 	padding-left: 2vw;
+}
+
+.jogo a.edit {
+	margin-top: 1vw;
+	border-left: solid 0px;
+}
+
+.edit img.icon{
+	float: none;
 }
 
 .icon{
@@ -80,63 +88,14 @@ h1{
     opacity: 1;
 }
 
+.centro{
+    background-color: #345;
+    justify-content: center;
+    text-align: center;
+    padding: 2vw;
+}
+
 .highlight {
 	width: 9vw;
     height: 6vw;
 }
-
-.edit-item img {
-	float: left;
-	width: 10vw;
-	height: 10vw;
-	padding-right: 2vw;
-    padding-top: 3vw;
-}
-
-/*@media screen and (min-width: 550px){
-	h1{ 
-		font-size: 50px;
-		margin: 0px;
-		margin-top: 10px;
-	}
-	.jogoimg{
-		padding: 0px;
-		margin: 0px;
-		margin-left:50.44px;
-		width:400px;
-		height:250px;
-	}
-	.jogodet {
-		margin-left:50.44px;	
-	}
-
-	.jogodet h4{
-		padding-right: 10.18px;
-		padding-left: 5px;
-		font-size: 15px;	
-	}
-	.jogo h3{
-		font-size: 30px;
-		margin-top: 10px;
-	}
-	.jogo p{
-		font-size: 22.5px;
-	}
-	.jogo a{
-		font-size: 22.5px;
-		margin: 0px;
-	}
-	.icon{
-	    background-size: 30px 30px;
-	    width:30px;
-	    height:30px;
-	    margin-top: 5px;
-	    margin-right: 5px;
-	}
-	.jogicone{
-		background-image: url("../../assets/players.png");
-	}
-	.timicone{
-		background-image: url("../../assets/time.png");
-	}
-}*/

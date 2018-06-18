@@ -14,7 +14,7 @@
 		  <option value="Max. Jogadores">Max. Jogadores</option>
 		  <option value="Tempo de Jogo">Tempo de Jogo</option>
 		</select>
-		<button (click)="toggleInverter()"  class="Invbtn"><img *ngIf="!inverterOrdem" class="order" src="../assets/header.png" alt="Crescente"><img *ngIf="inverterOrdem" class="order" src="../assets/header2.png" alt="Decrescente"></button>
+		<button (click)="toggleInverter()"  class="Invbtn"><img *ngIf="!inverterOrdem" class="order" src="../assets/down.png" alt="Crescente"><img *ngIf="inverterOrdem" class="order" src="../assets/up.png" alt="Decrescente"></button>
 		<button (click)="toggleFiltros()" class="PAbtn"><p class="picon">🔍</p><p class="ptext">Pesquisa<br/>Avançada</p></button><br>
 	</div>
 	<div class="filtros" *ngIf="mostrarFiltros">
@@ -38,7 +38,7 @@
 	<h3 *ngIf="!jogos || jogos.length <= 0">{{loaded ? "Jogos não encontrados!" : "Carregando jogos..."}}<br>{{loaded ? "Tente escolher outros termos ou filtros" : ""}}</h3>
 	<li *ngFor="let jogo of jogos" [class.selected]="jogo === jogoSelecionado" (click)="onSelect(jogo)">
 		<a routerLink="{{ '/jogo/'+jogo.id }}" (click)="messageService.clear()">
-			<img class="iconeJogo" src="{{ jogo.imagemJogo ? jogo.imagemJogo : 'capa/default.png' }}" alt="">
+			<div class="iconeJogo"><img class="iconeJogo" src="{{ jogo.imagemJogo ? jogo.imagemJogo : 'capa/default.png' }}" alt=""></div>
 			<div class="jogoinfo">
 				<h3>{{ jogo.nome | uppercase }} <img *ngIf="jogo.emDestaque" src="../../assets/game.png" alt="Em Destaque" class="dico" ></h3><br/>
 				<h4><img class="tico" src="../../assets/time.png" alt="Tempo: ">{{ jogo.tempoJogo+'min'}}</h4>

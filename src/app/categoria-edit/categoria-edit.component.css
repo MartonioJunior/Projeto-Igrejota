@@ -17,6 +17,7 @@ button.save {
 .categorias {
     list-style-type: none;
     margin-top: 8vw;
+    padding:5vw;
 }
 
 p {
@@ -32,7 +33,7 @@ input {
     border-radius: 2vw;
     font-size: 3.5vw;
     display: inline-block;
-    color: #f7aa71;
+    color: #df704a;
     padding-left: 1vw;
     margin-bottom: 2vw;
     margin-left: 2vw;
@@ -67,7 +68,10 @@ button.delete:hover, button.save:hover {
     margin-left: 1vw;
     margin-top: 1.5vw;
     margin-bottom: 1.5vw;
+    padding-bottom: 2vw;
+    padding-top: 2vw;
     width: 78vw;
+    display: block;
 }
 
 .categorias li:hover {

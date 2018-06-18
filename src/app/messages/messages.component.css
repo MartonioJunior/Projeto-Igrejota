@@ -19,6 +19,14 @@
 	margin-left: -4.72vw;
 	width: 100vw;
 	height: 7vw;
+	position: fixed;
+	top: 14.72vw;
+	left: 4.72vw;
+	bottom: 15.41vw;
+	right: 0;
+}
+
+.mes{
 }
 
 .clear {
@@ -30,6 +38,11 @@
 	background-color: #00A6C4;
 	color: #EEDFCF;
 	border: 0.5vw solid #00A6C4;
+}
+
+.clear:hover{
+	background-color: #EEDFCF; 
+	color:#000;
 }
 
 .message-text {

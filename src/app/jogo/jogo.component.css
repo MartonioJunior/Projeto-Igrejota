@@ -42,6 +42,8 @@ h2{
 
 input[type=text]{
 	float: left;
+	margin: 0px;
+	border-radius: 0px;
 	border: solid 0px;
 	border-left: solid 2px #F7AA71;
 	border-right: solid 2px #F7AA71;
@@ -62,7 +64,6 @@ input[type=text]{
 .busca button{
 	font-family: Pridi;
     font-size: 3.5vw;
-	margin-top:px;
 	margin:0px;
 	height: 8.5vw;
 	float: left;
@@ -240,6 +241,14 @@ input[type=checkbox]:hover{
 	height: 15vw;
 	width: 25vw;
 	float: left;
+	text-align: center;
+	justify-content: center;
+	background-color: #345;
+}
+img.iconeJogo{
+	height: 15vw;
+	width: auto;
+	float: none;
 }
 
 .searchbtn{
@@ -289,6 +298,7 @@ a {
 
 .jogos .jogoinfo h3{
     text-align: left;
+    float: none;
     font-family: PridiBold;
     font-size: 4vw;
 }
@@ -334,7 +344,10 @@ a.add-item img {
 
 .order {
 	padding-left: 1vw;
-	padding-right: 1vw;
+}
+.Settings img.order{
+ width: 6vw;
+ height: 6vw;
 }
 
 .section-header {

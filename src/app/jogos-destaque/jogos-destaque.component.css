@@ -108,11 +108,18 @@ input {
 	background-color: #F7AA71;
 	color:#000;
 }
-.iconeJogo {
+.iconeJogo{
+	height: 15vw;
+	width: 25vw;
 	float: left;
-	margin-left: 1vw;
-	width: 21vw;
-	height: 14vw;
+	text-align: center;
+	justify-content: center;
+	background-color: #345;
+}
+img.iconeJogo{
+	height: 15vw;
+	width: auto;
+	float: none;
 }
 
 a {

@@ -10,7 +10,7 @@
 		<li *ngFor="let jogo of jogos" [class.selected]="jogo === jogoSelecionado" (click)="onSelect(jogo)">
 			<a routerLink="{{ '/jogo/'+jogo.id }}" (click)="messageService.clear()">
 				<h3>{{ jogo.nome | uppercase }}</h3>
-				<img class="iconeJogo" src="{{ jogo.imagemJogo }}" alt="">
+				<div class="iconeJogo"><img class="iconeJogo" src="{{ jogo.imagemJogo }}" alt=""></div>
 				<div class="info-destaque">
 					<div class="jogo-info"><div class="highlight-line"></div><img class="jogo-info-icon" src="../assets/players.png" alt="">
 						{{ (jogo.minJogadores !== jogo.maxJogadores ? jogo.minJogadores+'-' : '') + (jogo.maxJogadores > 30 ? "30+" : jogo.maxJogadores)}}

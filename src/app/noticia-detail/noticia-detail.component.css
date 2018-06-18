@@ -2,15 +2,12 @@
 	padding-top: 7.5vw;
 }
 
+
 .noticia .edit-item img {
-	float: left;
+    width: 6vw;
 }
 
-.redux {
-	padding-left: 10vw;
-}
-
-h1 {
+.noticia h1 {
     margin: 0vw;
     font-size: 5vw;
     font-weight: 700;
@@ -18,8 +15,14 @@ h1 {
     color: #294d60;
 }
 
+.noticia .centro{
+    background-color: #345;
+    text-align: center;
+    justify-content: center;
+}
+
 .noticia img {
-	max-height: 55vw;
+	max-height: 47.2vw;
 }
 
 .noticia h4 {
@@ -41,26 +44,11 @@ h1 {
 
 .noticia p {
 	color: #000;
-	font-size: 6vw;
+	font-size: 5vw;
 	font-weight: normal;
     font-family: Lateef;
-    margin: 0;
 }
 
 a {
 	text-decoration: none;
-}
-
-.edit-item img {
-    width: 10vw;
-    height: 10vw;
-    padding-right: 2vw;
-    padding-top: 1vw;
-}
-
-.container-image {
-    margin-top: 5vw;
-    height: 55vw;
-    background-color: #f0f0f1;
-    text-align: center;
 }
