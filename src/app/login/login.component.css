@@ -23,8 +23,8 @@
 	justify-content: center;
   left: 0;
   right: 0;
-  padding-top: 27.8vh;
-  padding-bottom: 28.8vh;
+  padding-top: 25vh;
+  padding-bottom: 45vh;
   padding-left: 5vw;
   padding-right: 5vw;
 	font-family: Pridi;
@@ -52,7 +52,7 @@
 input [type=text]{
 }
 
-.login button{
+.login button,.gp button{
     color:#EFE0D0;
     background-color:#D06636;
     border:none;
@@ -67,9 +67,13 @@ input [type=text]{
 	  margin-bottom:4vw;
 }
 
-.login button:hover{
+.login button:hover, .gp button:hover{
     color:#D06636;
     background-color:#EFE0D0;
+}
+
+.gp button{
+  font-size: 6vw;
 }
 
 .login h1 {
@@ -83,8 +87,27 @@ input [type=text]{
   padding-bottom: 2vw;
 }
 
-h2 {
-  margin-bottom: 2vw;
-  font-size: 3.5vw;
+.gp h1, h2 {
+  font-family: PridiBold;
+  margin: 0;
+  padding-top: 2vw;
+  padding-bottom: 2vw;
   overflow-wrap: break-word;
+}
+
+.gp{
+  text-align: center;
+  margin-top:5vw;
+}
+
+.gp h1 {
+  margin-bottom: 2vw;
+  font-size: 6vw;
+  color: #DF704A;
+}
+
+.gp h2 {
+  margin-bottom: 2vw;
+  font-size: 4vw;
+  color: #294D60;
 }
