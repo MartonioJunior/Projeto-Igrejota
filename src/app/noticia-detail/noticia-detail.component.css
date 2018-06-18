@@ -2,9 +2,12 @@
 	padding-top: 7.5vw;
 }
 
-
 .noticia .edit-item img {
-    width: 6vw;
+    width: 10vw;
+    height: 10vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    float: left;
 }
 
 .noticia h1 {
@@ -43,10 +46,11 @@
 }
 
 .noticia p {
-	color: #000;
-	font-size: 5vw;
-	font-weight: normal;
-    font-family: Lateef;
+    font-family: Pridi;
+    color: #000;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    margin: 0;
 }
 
 a {
