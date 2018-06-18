@@ -18,7 +18,7 @@ h2 {
 
 .highlight h3 {
     position: absolute;
-    width: 88.56vw;
+    width: 88.2%;
     top: 44.5vw;
     height: 12.5vw;
     line-height: 12.5vw;
@@ -40,7 +40,7 @@ a {
 }
 
 .noticias li {
-    width: 90.56vw;
+    width: 85.56vw;
     display: inline-block;
     padding-top: 2vw;
     padding-bottom: 2vw;
@@ -72,7 +72,7 @@ a {
 	max-width: 63vw;
 }
 
-.highlight-edit {
+a a img {
     width: 8vw;
     position: absolute;
     top: 50vw;
@@ -107,7 +107,7 @@ a {
 a.edit-item img{
 	width: 9vw;
     position: absolute;
-    right: 5.5vw;
+    right: 0.5vw;
 }
 a.add-item img {
 	width: 20vw;

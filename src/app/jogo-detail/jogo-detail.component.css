@@ -53,10 +53,11 @@ h1{
 	margin-top: 2vw;
 }
 .jogo p{
-	font-family: Lateef;
-	color: black;
-	font-size: 4.5vw;
-	margin: 0px;
+    font-family: Pridi;
+    color: #000;
+    font-size: 3.5vw;
+    line-height: 5vw;
+    margin: 0;
 }
 .jogo a{
 	font-family: Lateef;
@@ -72,7 +73,11 @@ h1{
 }
 
 .edit img.icon{
-	float: none;
+      float: left;
+    width: 10vw;
+    height: 10vw;
+    padding-right: 2vw;
+    padding-top: 3vw;
 }
 
 .icon{
